@@ -1,0 +1,16 @@
+Compelete binary tree is called when all left node are filled accordingly and perfect binary tree is called when every node has exactly 2 children and all level fillup.
+
+Array representation of complete binary tree-
+
+i->left = i*2+1
+i->right = i*2+2
+i->parent = (i-1)/2
+
+It must need to be compelete binary tree or perfect
+
+What is heap?
+- Heap is the array representation of a complete binary tree.
+
+two types of heap-
+1. Max heap - parent will be greater than children, always give max value
+2. Min heap - parent will be less than children, always give min value
